@@ -43,7 +43,7 @@ function updateLike(messageId) {
     likes = Number(likes) + 1;
     console.log(likes)
     // Salvar no database
-    firebase.database().ref(roomName).child(messageId).update({ like : updatedLikes });
+    firebase.database().ref(roomName).child(messageId).update({ like : likes });
     
 }
 function logout() {
