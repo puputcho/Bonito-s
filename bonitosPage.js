@@ -39,7 +39,7 @@ getData();
 function updateLike(messageId) {
     console.log('like button pressed. messageId:' + messageId);
     buttonId = messageId;
-    likes = document.getElementById(messageId).value;
+    var likes = document.getElementById(messageId).value;
     likes = Number(likes) + 1;
     console.log(likes)
     // Salvar no database
