@@ -92,3 +92,7 @@ background-image: linear-gradient(to right, #fffc00, #ffffff);
 {
 	padding-left:5px;color:grey;
 }
+.navbar-inverse
+{
+	background-color:yellow;
+	width: 100%;
