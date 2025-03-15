@@ -1,11 +1,11 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyCCT50t-q-I9js7jmqiyzPcH2P--tdlJ-M",
-    authDomain: "bonitos-6e5c1.firebaseapp.com",
-    databaseURL: "https://bonitos-6e5c1-default-rtdb.firebaseio.com",
-    projectId: "bonitos-6e5c1",
-    storageBucket: "bonitos-6e5c1.appspot.com",
-    messagingSenderId: "298906802058",
-    appId: "1:298906802058:web:fd08f360bd9cb647261a73"
+  apiKey: "AIzaSyCsBd4fW_1IcRTaKCvjai4llRoi1TIzmnw",
+  authDomain: "flashat-dd3d3.firebaseapp.com",
+  databaseURL: "https://flashat-dd3d3-default-rtdb.firebaseio.com",
+  projectId: "flashat-dd3d3",
+  storageBucket: "flashat-dd3d3.firebasestorage.app",
+  messagingSenderId: "222002911862",
+  appId: "1:222002911862:web:f02e3be27d382953bb9d57",
 };
 firebase.initializeApp(firebaseConfig);
 
