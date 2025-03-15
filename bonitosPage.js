@@ -32,7 +32,7 @@ like = messageData['like'];
 nameWithTag = '<h4>' + name + "'></h4>";
 msgWithTag = "<h4 class ='message_h4'>" + message + '</h4>';
 like_button = "<button class='btn btn-warning' id=" + firebaseMessageId + " value = " + like + " onclick='updateLike(this.id)'>";
-spanWithTag = "<span class='glyphicon glyphicon-thumbs-up'>like: " + like + "</span> </button> <hr>";
+spanWithTag = "<span class='glyphicon glyphicon-thumbs-up'>LightIt!: " + like + "</span> </button> <hr>";
 row = nameWithTag + msgWithTag + like_button + spanWithTag;
 document.getElementById('output').innerHTML += row;
 } }); }); }
