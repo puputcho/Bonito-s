@@ -9,7 +9,7 @@ const firebaseConfig = {
   };
 firebase.initializeApp(firebaseConfig);
 nome = localStorage.getItem('userName');
-document.getElementById('userName').innerHTML = 'Olá, '+nome+', você ta bonito´s hoje né?';
+document.getElementById('userName').innerHTML = 'Welcome back, '+nome;
 function logout() {
     localStorage.removeItem('userName');
     localStorage.removeItem('roomName');
