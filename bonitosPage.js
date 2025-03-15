@@ -14,7 +14,7 @@ roomName = localStorage.getItem('roomName');
 
 function send() {
     msg = document.getElementById('msg').value;
-    firebase.database().ref(roomName).push({
+    firebase.database().ref(roomName).unshift({
         name: username,
         message: msg,
         like: 0
