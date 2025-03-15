@@ -29,7 +29,7 @@ console.log(messageData);
 name = messageData['name'];
 message = messageData['message'];
 like = messageData['like'];
-nameWithTag = '<h4>' + name + "'></h4>";
+nameWithTag = '<h4>' + name + "</h4>";
 msgWithTag = "<h4 class ='message_h4'>" + message + '</h4>';
 like_button = "<button class='btn btn-warning' id=" + firebaseMessageId + " value = " + like + " onclick='updateLike(this.id)'>";
 spanWithTag = "<span class='glyphicon glyphicon-thumbs-up'>LightIt!: " + like + "</span> </button> <hr>";
