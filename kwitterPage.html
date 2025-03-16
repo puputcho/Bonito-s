@@ -35,9 +35,9 @@
             <input type="text" id="msg" class="form-control" placeholder="mensagem">
             <a href='#sigma'><button class="btn-success" onclick="send()"><img src="send.png" height="60"></button></a>
             <br>
-            <label for="picture">Attach picture (png or jpeg only):</label>
+            <label for="picture">Attach picture link:</label>
 
-<input type="file" id="picture" name="picture" accept="image/png, image/jpeg" />
+  <input type="url" name="pic" id="pic" placeholder="https://example.com/image.png" pattern="https://.*" size="30" required />
         </div>
 
         </center>
