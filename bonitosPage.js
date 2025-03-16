@@ -35,7 +35,7 @@ like = messageData['like'];
 image = messageData['picture'];                                                                                                                                                                                                                                                                                        
 nameWithTag = '<h4>' + name + "</h4>";
 msgWithTag = "<h4 class ='message_h4'>" + message + '</h4>';
-imgWithTag = "<br><img src='" + image + "'>";                                                                                                                                                                                                                                                                                        
+imgWithTag = "<br><img src='" + image + "'><br>";                                                                                                                                                                                                                                                                                        
 like_button = "<button class='btn btn-warning' id=" + firebaseMessageId + " value = " + like + " onclick='updateLike(this.id)'>";
 spanWithTag = "<span class='glyphicon glyphicon-thumbs-up'>LightIt!: " + like + "</span> </button> <hr>";
 row = nameWithTag + msgWithTag + imgWithTag + like_button + spanWithTag;
