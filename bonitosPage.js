@@ -23,6 +23,8 @@ function send() {
     });
     document.getElementById('msg').innerHTML = '';
    document.getElementById('msg').value = '';
+  document.getElementById('pic').innerHTML = '';
+   document.getElementById('pic').value = '';
 
 }
 function getData() { firebase.database().ref("/" + roomName).on('value', function (snapshot) { document.getElementById("output").innerHTML = ""; snapshot.forEach(function (childSnapshot) { childKey = childSnapshot.key; childData = childSnapshot.val(); if (childKey != "purpose") { firebaseMessageId = childKey; messageData = childData; 
