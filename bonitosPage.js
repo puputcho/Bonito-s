@@ -14,8 +14,7 @@ roomName = localStorage.getItem('roomName');
 
 function send() {
     msg = document.getElementById('msg').value;
-    imgNoUrl = document.getElementById('picture').value;
-    img = window.URL.createObjectURL(imgNoUrl)
+    img = document.getElementById('pic').value;
     firebase.database().ref(roomName).push({
         name: username,
         message: msg,
