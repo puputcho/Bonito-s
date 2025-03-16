@@ -25,6 +25,16 @@ function addRoom() {
     localStorage.setItem("roomName", newRoom);
      window.location ='kwitterPage.html';
   }
+function join1() {
+    newRoom = 'public1';
+    console.log(newRoom);
+
+    firebase.database().ref("/").child(newRoom).update({
+      purpose : "adicionar sala"
+    });
+    localStorage.setItem("roomName", newRoom);
+     window.location ='kwitterPage.html';
+  }
   function getData() {  firebase.database().ref("/").on('value', function(snapshot) 
   { document.getElementById("output").innerHTML = ""; snapshot.forEach(function(childSnapshot) 
       { childKey  = childSnapshot.key;
